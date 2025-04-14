@@ -1,4 +1,7 @@
-Config = {}
+Config = Config or {}
+
+Config.AllowedDoorControlGroups = { 'admin', 'mod', 'support' } -- add  more groups
+Config.AllowedDoorControlJobs = { 'clerk' } -- add more jobs
 
 Config.DoorTimes = {
     --Door 1
@@ -7,4 +10,7 @@ Config.DoorTimes = {
     --Door 2
     {hour = 17, minute = 12, action = "open", doorId = 79},
     {hour = 17, minute = 13, action = "close", doorId = 79},
+
+    -- add more doors
+    
 }
