@@ -11,5 +11,6 @@ server_scripts {
 }
 
 dependencies {
-    'ox_doorlock'
+    'ox_doorlock',
+    'ox_lib' -- only for notify´s
 }
