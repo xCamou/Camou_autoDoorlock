@@ -1,3 +1,5 @@
+Discord: https://discord.com/invite/vHFqpwb3Rz
+
 With this script it is possible to open and close doors (ox_doorlock) automatically at certain times.
 
 This offers more dynamics in the role play, for example in stores.
